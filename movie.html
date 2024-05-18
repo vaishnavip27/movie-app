@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MovieMaze</title>
+    <link rel="stylesheet" href="styling.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="side-menu">
+        <div class="main-icon">
+          <div class="icon-text">MOVIEMAZE</div>
+        </div>
+
+        <div class="menu-container">
+          <div class="menu-text">Menu</div>
+
+          <div class="home">
+            <div class="home-icon">
+              <svg
+                width="29"
+                height="23"
+                viewBox="0 0 29 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.1155 5.8504L4.83372 13.495V21.7458C4.83372 21.9594 4.91858 22.1643 5.06964 22.3154C5.2207 22.4664 5.42558 22.5513 5.63921 22.5513L11.2807 22.5367C11.4936 22.5356 11.6975 22.4503 11.8477 22.2994C11.9978 22.1484 12.0822 21.9441 12.0821 21.7312V16.9128C12.0821 16.6992 12.167 16.4943 12.3181 16.3433C12.4691 16.1922 12.674 16.1074 12.8876 16.1074H16.1096C16.3232 16.1074 16.5281 16.1922 16.6792 16.3433C16.8302 16.4943 16.9151 16.6992 16.9151 16.9128V21.7277C16.9148 21.8337 16.9354 21.9387 16.9757 22.0367C17.016 22.1347 17.0753 22.2238 17.1501 22.2989C17.225 22.3739 17.3139 22.4335 17.4118 22.4741C17.5097 22.5148 17.6146 22.5357 17.7206 22.5357L23.3601 22.5513C23.5737 22.5513 23.7786 22.4664 23.9296 22.3154C24.0807 22.1643 24.1656 21.9594 24.1656 21.7458V13.4895L14.8858 5.8504C14.7767 5.76246 14.6408 5.71451 14.5006 5.71451C14.3605 5.71451 14.2246 5.76246 14.1155 5.8504ZM28.777 11.0463L24.5683 7.57718V0.60412C24.5683 0.443897 24.5047 0.290237 24.3914 0.176943C24.2781 0.0636483 24.1244 0 23.9642 0H21.145C20.9847 0 20.8311 0.0636483 20.7178 0.176943C20.6045 0.290237 20.5408 0.443897 20.5408 0.60412V4.25955L16.0336 0.55126C15.6011 0.195322 15.0583 0.000711525 14.4981 0.000711525C13.938 0.000711525 13.3952 0.195322 12.9627 0.55126L0.219245 11.0463C0.158071 11.0969 0.10746 11.159 0.0703024 11.2291C0.033145 11.2993 0.0101697 11.376 0.00268942 11.455C-0.0047909 11.5341 0.00337032 11.6138 0.0267067 11.6896C0.0500432 11.7655 0.0880975 11.836 0.138695 11.8971L1.42245 13.4578C1.47291 13.5191 1.53498 13.5699 1.6051 13.6073C1.67521 13.6446 1.75201 13.6678 1.83108 13.6754C1.91016 13.683 1.98996 13.675 2.06592 13.6517C2.14188 13.6284 2.21251 13.5904 2.27376 13.5398L14.1155 3.78632C14.2246 3.69839 14.3605 3.65043 14.5006 3.65043C14.6408 3.65043 14.7767 3.69839 14.8858 3.78632L26.728 13.5398C26.7892 13.5904 26.8597 13.6285 26.9356 13.6518C27.0114 13.6752 27.0911 13.6833 27.1701 13.6758C27.2491 13.6684 27.3259 13.6454 27.396 13.6082C27.4662 13.5711 27.5283 13.5205 27.5788 13.4593L28.8626 11.8986C28.9131 11.8372 28.951 11.7663 28.9741 11.6901C28.9972 11.6139 29.0049 11.5339 28.997 11.4547C28.989 11.3755 28.9655 11.2986 28.9277 11.2286C28.89 11.1585 28.8388 11.0966 28.777 11.0463Z"
+                  fill="rgb(217, 217, 217)"
+                  class="svg"
+                />
+              </svg>
+            </div>
+            <div class="home-text">Home</div>
+          </div>
+
+          <div class="discovery">
+            <div class="discovery-icon">
+              <svg
+                width="27"
+                height="27"
+                viewBox="0 0 27 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.4565 16.4565L5.4 21.6L10.5435 10.5435L21.6 5.4M13.5 0C11.7272 0 9.97167 0.349188 8.33377 1.02763C6.69588 1.70606 5.20765 2.70047 3.95406 3.95406C1.42232 6.4858 0 9.91958 0 13.5C0 17.0804 1.42232 20.5142 3.95406 23.0459C5.20765 24.2995 6.69588 25.2939 8.33377 25.9724C9.97167 26.6508 11.7272 27 13.5 27C17.0804 27 20.5142 25.5777 23.0459 23.0459C25.5777 20.5142 27 17.0804 27 13.5C27 11.7272 26.6508 9.97167 25.9724 8.33377C25.2939 6.69588 24.2995 5.20765 23.0459 3.95406C21.7924 2.70047 20.3041 1.70606 18.6662 1.02763C17.0283 0.349188 15.2728 0 13.5 0ZM13.5 12.015C13.1062 12.015 12.7284 12.1715 12.4499 12.4499C12.1715 12.7284 12.015 13.1062 12.015 13.5C12.015 13.8938 12.1715 14.2716 12.4499 14.5501C12.7284 14.8285 13.1062 14.985 13.5 14.985C13.8938 14.985 14.2716 14.8285 14.5501 14.5501C14.8285 14.2716 14.985 13.8938 14.985 13.5C14.985 13.1062 14.8285 12.7284 14.5501 12.4499C14.2716 12.1715 13.8938 12.015 13.5 12.015Z"
+                  fill="rgb(217,217,217)"
+                  class="svg"
+                />
+              </svg>
+            </div>
+            <div class="discovery-text">Discover</div>
+          </div>
+
+          <div class="community">
+            <div class="community-icon">
+              <svg
+                width="31"
+                height="20"
+                viewBox="0 0 31 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.5 0C16.699 0 17.8489 0.50862 18.6967 1.41397C19.5445 2.31932 20.0208 3.54723 20.0208 4.82759C20.0208 6.10794 19.5445 7.33586 18.6967 8.24121C17.8489 9.14655 16.699 9.65517 15.5 9.65517C14.301 9.65517 13.1511 9.14655 12.3033 8.24121C11.4555 7.33586 10.9792 6.10794 10.9792 4.82759C10.9792 3.54723 11.4555 2.31932 12.3033 1.41397C13.1511 0.50862 14.301 0 15.5 0ZM6.45833 3.44828C7.18167 3.44828 7.85333 3.65517 8.43458 4.02759C8.24083 6 8.78333 7.95862 9.89417 9.48966C9.24833 10.8138 7.95667 11.7241 6.45833 11.7241C5.43062 11.7241 4.445 11.2882 3.71829 10.5122C2.99159 9.73615 2.58333 8.68365 2.58333 7.58621C2.58333 6.48876 2.99159 5.43626 3.71829 4.66025C4.445 3.88423 5.43062 3.44828 6.45833 3.44828ZM24.5417 3.44828C25.5694 3.44828 26.555 3.88423 27.2817 4.66025C28.0084 5.43626 28.4167 6.48876 28.4167 7.58621C28.4167 8.68365 28.0084 9.73615 27.2817 10.5122C26.555 11.2882 25.5694 11.7241 24.5417 11.7241C23.0433 11.7241 21.7517 10.8138 21.1058 9.48966C22.2167 7.95862 22.7592 6 22.5654 4.02759C23.1467 3.65517 23.8183 3.44828 24.5417 3.44828ZM7.10417 17.5862C7.10417 14.731 10.8629 12.4138 15.5 12.4138C20.1371 12.4138 23.8958 14.731 23.8958 17.5862V20H7.10417V17.5862ZM0 20V17.931C0 16.0138 2.44125 14.4 5.74792 13.931C4.98583 14.869 4.52083 16.1655 4.52083 17.5862V20H0ZM31 20H26.4792V17.5862C26.4792 16.1655 26.0142 14.869 25.2521 13.931C28.5587 14.4 31 16.0138 31 17.931V20Z"
+                  fill="rgb(217,217,217)"
+                  class="svg"
+                />
+              </svg>
+            </div>
+            <div class="community-text">Community</div>
+          </div>
+
+          <div class="bookmarked">
+            <div class="bookmarked-icon">
+              <svg
+                width="20"
+                height="26"
+                viewBox="0 0 20 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.1429 21.6667L10 18.5178L2.85714 21.6667V2.88889H17.1429M17.1429 0H2.85714C2.09938 0 1.37266 0.304364 0.836838 0.846136C0.301019 1.38791 0 2.12271 0 2.88889V26L10 21.6667L20 26V2.88889C20 1.28556 18.7143 0 17.1429 0Z"
+                  fill="rgb(217,217,217)"
+                  class="svg"
+                />
+              </svg>
+            </div>
+            <div class="bookmarked-text">Bookmarked</div>
+          </div>
+
+          <div class="top-rated">
+            <div class="top-rated-icon">
+              <svg
+                width="32"
+                height="30"
+                viewBox="0 0 32 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 21.1421L9.984 24.7263L11.568 17.9684L6.256 13.4211L13.264 12.8368L16 6.4579L18.736 12.8368L25.744 13.4211L20.432 17.9684L22.016 24.7263M32 11.4316L20.496 10.4684L16 0L11.504 10.4684L0 11.4316L8.72 18.9L6.112 30L16 24.1105L25.888 30L23.264 18.9L32 11.4316Z"
+                  fill="rgb(217,217,217)"
+                  class="svg"
+                />
+              </svg>
+            </div>
+            <div class="top-rated-text">Top-rated</div>
+          </div>
+
+          <div class="help">
+            <div class="help-icon">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.6 22.4H15.4V19.6H12.6V22.4ZM14 0C12.1615 0 10.341 0.362121 8.64243 1.06569C6.94387 1.76925 5.40053 2.80048 4.1005 4.1005C1.475 6.72601 0 10.287 0 14C0 17.713 1.475 21.274 4.1005 23.8995C5.40053 25.1995 6.94387 26.2307 8.64243 26.9343C10.341 27.6379 12.1615 28 14 28C17.713 28 21.274 26.525 23.8995 23.8995C26.525 21.274 28 17.713 28 14C28 12.1615 27.6379 10.341 26.9343 8.64243C26.2307 6.94387 25.1995 5.40053 23.8995 4.1005C22.5995 2.80048 21.0561 1.76925 19.3576 1.06569C17.659 0.362121 15.8385 0 14 0ZM14 25.2C7.826 25.2 2.8 20.174 2.8 14C2.8 7.826 7.826 2.8 14 2.8C20.174 2.8 25.2 7.826 25.2 14C25.2 20.174 20.174 25.2 14 25.2ZM14 5.6C12.5148 5.6 11.0904 6.19 10.0402 7.2402C8.99 8.29041 8.4 9.71479 8.4 11.2H11.2C11.2 10.4574 11.495 9.7452 12.0201 9.2201C12.5452 8.695 13.2574 8.4 14 8.4C14.7426 8.4 15.4548 8.695 15.9799 9.2201C16.505 9.7452 16.8 10.4574 16.8 11.2C16.8 14 12.6 13.65 12.6 18.2H15.4C15.4 15.05 19.6 14.7 19.6 11.2C19.6 9.71479 19.01 8.29041 17.9598 7.2402C16.9096 6.19 15.4852 5.6 14 5.6Z"
+                  fill="rgb(217,217,217)"
+                  class="svg"
+                />
+              </svg>
+            </div>
+            <div class="help-text">Help</div>
+          </div>
+
+          <div class="logout">
+            <div class="logout-icon"><img src="pictures/logout.png" /></div>
+            <div class="logout-text">Logout</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-page">
+        <div class="nav-container">
+          <div class="nav-text">
+            <div class="nav-1">Movies</div>
+            <div class="nav-2">Series</div>
+            <div class="nav-3">TV Shows</div>
+            <select name="genre" selected class="nav-4">
+              <option value="default" selected disabled style="display: none">
+                Genre
+              </option>
+              <option value="saab">Action</option>
+              <option value="mercedes">Adventure</option>
+              <option value="audi">Animation</option>
+              <option value="mercedes">Comedy</option>
+              <option value="mercedes">Crime</option>
+              <option value="mercedes">Documentry</option>
+              <option value="mercedes">Drama</option>
+              <option value="mercedes">Family</option>
+              <option value="mercedes">Fantasy</option>
+              <option value="mercedes">History</option>
+              <option value="mercedes">Music</option>
+              <option value="mercedes">Mystery</option>
+              <option value="mercedes">Sci-Fi</option>
+              <option value="mercedes">Thriller</option>
+              <option value="mercedes">War</option>
+              <option value="mercedes">Western</option>
+            </select>
+          </div>
+
+          <div class="search-container">
+            <form action="#" method="get">
+              <input
+                type="text"
+                class="search-input"
+                name="search"
+                placeholder="Movies, Shows and more"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="carousel">
+          <!-- list item -->
+          <div class="list">
+            <div class="item">
+              <img src="pictures/picture-1.jpg" />
+              <div class="content">
+                <div class="des-info">2023 . 2h 35m . 5 languages</div>
+                <div class="des">
+                  A selfish Prince is cursed to become a monster for the rest of
+                  his life, unless he learns to fall in love with a beautiful
+                  young woman he keeps prisoner.
+                </div>
+                <div class="genre">Adventure | Family | Fantasy</div>
+                <div class="buttons">
+                  <button>WATCH NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="pictures/picture-2.jpg" />
+              <div class="content">
+                <div class="des-info">2023 . 2h 35m . 5 languages</div>
+                <div class="des">
+                  A mountain guides Rob Hall and Scott Fischer combine their
+                  expedition teams for a final ascent to the summit of Mount
+                  Everest. With little warning, a storm strikes the mountain and
+                  the climbers must now battle to survive.
+                </div>
+                <div class="genre">Action | Adventure | Biography</div>
+                <div class="buttons">
+                  <button>WATCH NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="pictures/picture-3.jpg" />
+              <div class="content">
+                <div class="des-info">2023 . 2h 35m . 5 languages</div>
+                <div class="des">
+                  During the 1980s, a failed stand-up comedian is driven insane
+                  and turns to a life of crime and chaos in Gotham City while
+                  becoming an infamous psychopathic crime figure.
+                </div>
+                <div class="genre">Crime | Drama | Thriller</div>
+                <div class="buttons">
+                  <button>WATCH NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="pictures/picture-4.jpg" />
+              <div class="content">
+                <div class="des-info">2023 . 2h 35m . 5 languages</div>
+                <div class="des">
+                  A group of intergalactic criminals must pull together to stop
+                  a fanatical warrior with plans to purge the universe.
+                </div>
+                <div class="genre">Action | Adventure | Comedy</div>
+                <div class="buttons">
+                  <button>WATCH NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="thumbnail">
+            <div class="item">
+              <img src="pictures/picture-1.jpg" />
+              <div class="content">
+                <div class="title">Name Slider</div>
+                <div class="description">Description</div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="pictures/picture-2.jpg" />
+              <div class="content">
+                <div class="title">Name Slider</div>
+                <div class="description">Description</div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="pictures/picture-3.jpg" />
+              <div class="content">
+                <div class="title">Name Slider</div>
+                <div class="description">Description</div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="pictures/picture-4.jpg" />
+              <div class="content">
+                <div class="title">Name Slider</div>
+                <div class="description">Description</div>
+              </div>
+            </div>
+          </div>
+          <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+          </div>
+          <!-- time running -->
+          <div class="time"></div>
+        </div>
+
+        <div class="new-releases">
+          <div class="new-releases-title">
+            New releases
+            <div class="line"></div>
+          </div>
+          <div class="scroll-container">
+            <div class="slider-wrapper">
+              <button class="prev-slide slide-button"><</button>
+              <div class="img-list" id="imgList">
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="image-item" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="image-item" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="image-item" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="image-item" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="image-item" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="image-item" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="image-item" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="image-item" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="image-item" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="image-item" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+              </div>
+              <button class="next-slide slide-button">></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pia">
+          <div class="pia-text">
+            Popular in Action
+            <div class="line"></div>
+          </div>
+          <div class="scroll-container">
+            <div class="slider-wrapper">
+              <button class="prev-slide slide-button"><</button>
+              <div class="img-list">
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="pia-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="pia-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="pia-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="pia-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="pia-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="pia-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="pia-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="pia-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="pia-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="pia-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+              </div>
+              <button class="next-slide slide-button">></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="top-picks">
+          <div class="top-picks-text">
+            Top Movies
+            <div class="line"></div>
+          </div>
+          <div class="scroll-container">
+            <div class="slider-wrapper">
+              <button class="prev-slide slide-button"><</button>
+              <div class="img-list">
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="tp-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="tp-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="tp-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="tp-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="tp-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="tp-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="tp-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="tp-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="tp-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="tp-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+              </div>
+              <button class="next-slide slide-button">></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="top-searches">
+          <div class="top-searches-text">
+            Top Searches
+            <div class="line"></div>
+          </div>
+          <div class="scroll-container">
+            <div class="slider-wrapper">
+              <button class="prev-slide slide-button"><</button>
+              <div class="img-list">
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="ts-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="ts-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="ts-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="ts-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="ts-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="ts-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="ts-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="ts-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="ts-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <div class="movie-item">
+                  <img src="pictures/picture-2.jpg" class="ts-image" />
+                  <div class="movie-info">
+                    <h3>Movie Name 1</h3>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pik">
+            <div class="pik-text">
+              Kids corner
+              <div class="line"></div>
+            </div>
+            <div class="scroll-container">
+              <div class="slider-wrapper">
+                <button class="prev-slide slide-button"><</button>
+                <div class="img-list">
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pik-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pik-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pik-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pik-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pik-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pik-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pik-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pik-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pik-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pik-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="wyf">
+            <div class="wyf-text">
+              Watch with your family
+              <div class="line"></div>
+            </div>
+            <div class="scroll-container">
+              <div class="slider-wrapper">
+                <button class="prev-slide slide-button"><</button>
+                <div class="img-list">
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="wyf-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="wyf-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="wyf-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="wyf-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="wyf-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="wyf-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="wyf-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="wyf-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="wyf-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="wyf-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="sci">
+            <div class="sci-text">
+              Sci-Fi movies
+              <div class="line"></div>
+            </div>
+            <div class="scroll-container">
+              <div class="slider-wrapper">
+                <button class="prev-slide slide-button"><</button>
+                <div class="img-list">
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="sci-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="sci-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="sci-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="sci-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="sci-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="sci-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="sci-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="sci-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="sci-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="sci-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pit">
+            <div class="pit-text">
+              Popular in Thriller
+              <div class="line"></div>
+            </div>
+            <div class="scroll-container">
+              <div class="slider-wrapper">
+                <button class="prev-slide slide-button"><</button>
+                <div class="img-list">
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pit-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pit-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pit-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pit-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pit-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pit-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pit-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pit-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pit-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pit-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pid">
+            <div class="pid-text">
+              Popular in Drama
+              <div class="line"></div>
+            </div>
+            <div class="scroll-container">
+              <div class="slider-wrapper">
+                <button class="prev-slide slide-button"><</button>
+                <div class="img-list">
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pif">
+            <div class="pif-text">
+              Popular in Family
+              <div class="line"></div>
+            </div>
+            <div class="scroll-container">
+              <div class="slider-wrapper">
+                <button class="prev-slide slide-button"><</button>
+                <div class="img-list">
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pif-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pif-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pif-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pif-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pif-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pif-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pif-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pif-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pif-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pif-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pic">
+            <div class="pic-text">
+              Popular in Crime
+              <div class="line"></div>
+            </div>
+            <div class="scroll-container">
+              <div class="slider-wrapper">
+                <button class="prev-slide slide-button"><</button>
+                <div class="img-list">
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pi-co">
+            <div class="pi-co-text">
+              Popular in Comedy
+              <div class="line"></div>
+            </div>
+            <div class="scroll-container">
+              <div class="slider-wrapper">
+                <button class="prev-slide slide-button"><</button>
+                <div class="img-list">
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pi-co-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pi-co-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pi-co-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pi-co-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pi-co-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pi-co-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pi-co-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pi-co-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pi-co-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pi-co-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pic">
+            <div class="pic-text">
+              Popular in Crime
+              <div class="line"></div>
+            </div>
+            <div class="scroll-container">
+              <div class="slider-wrapper">
+                <button class="prev-slide slide-button"><</button>
+                <div class="img-list">
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pic-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pic">
+            <div class="pic-text">
+              Popular in Documentry
+              <div class="line"></div>
+            </div>
+            <div class="scroll-container">
+              <div class="slider-wrapper">
+                <button class="prev-slide slide-button"><</button>
+                <div class="img-list">
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                  <div class="movie-item">
+                    <img src="pictures/picture-2.jpg" class="pid-image" />
+                    <div class="movie-info">
+                      <h3>Movie Name 1</h3>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-slide slide-button">></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- footer -->
+          <div class="footer">
+            <p class="copyright">
+              Copyright © 2024
+              <a href="https://twitter.com/vai_shhh27">@vai_shhh27</a>. All
+              rights reserved.
+            </p>
+          </div>
+
+          <!-- end of the list -->
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
